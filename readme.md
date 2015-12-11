@@ -1,8 +1,13 @@
-# WordPress Query Reference
+[![WordPress Query Reference](media/cover.png)](https://github.com/cjpatoilo/wp-query-reference)
 
-> A fast and simple reference on using arguments in the WP Query.
+| A fast and simple reference on using arguments in the WP Query.
 
-## Code
+## What's WP-Query?
+
+**WP_Query** is a class defined in `wp-includes/query.php` that deals with the intricacies of a post's (or page's) request to a WordPress blog. The `wp-blog-header.php` (or the WP class in Version 2.0) gives the ***$wp_query*** object information defining the current request, and then ***$wp_query*** determines what type of query it's dealing with (possibly a category archive, dated archive, feed, or search), and fetches the requested posts. It retains a lot of information on the request, which can be pulled at a later date.
+
+
+## Usage
 
 One of the most powerful features of WordPress is the WP Query. It is what determines what content is displayed on what page. And often you’ll want to modify this query to your specific needs. Here's a simple refenrece about it:
 
@@ -13,7 +18,7 @@ One of the most powerful features of WordPress is the WP Query. It is what deter
 * http://wordpress.org
 *
 * Codex: http://codex.wordpress.org/Class_Reference/WP_Query
-* Source: http://core.trac.wordpress.org/browser/tags/3.3.1/wp-includes/query.php
+* Source: http://core.trac.wordpress.org/browser/tags/4.4.0/wp-includes/query.php
 */
 
 $args = array(
@@ -198,6 +203,7 @@ wp_reset_postdata();
 ?>
 ```
 
+
 ## Contributing
 
 1. Fork it!
@@ -205,6 +211,7 @@ wp_reset_postdata();
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
+
 
 ## License
 
