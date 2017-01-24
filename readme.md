@@ -1,6 +1,6 @@
 [![WordPress Query Reference](media/cover.png)](https://github.com/cjpatoilo/wp-query-reference)
 
-| A fast and simple reference on using arguments in the WP Query.
+| A dead simple WP Query reference.
 
 ## What's WP-Query?
 
