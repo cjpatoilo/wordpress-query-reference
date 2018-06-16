@@ -40,7 +40,7 @@
 		"node": ">=4"
 	},
 	"scripts": {
-		"prepush": "marshmallow -o docs -i artwork.psd -t BannerCLI -f -m && inject-ga docs/index.html -o docs/index.html -c 'UA-24389952-13' && boeing docs && rimraf docs",
+		"prepush": "marshmallow -o docs -i artwork.psd -t 'WordPress Query Reference' -f -m && inject-ga docs/index.html -o docs/index.html -c 'UA-24389952-13' && boeing docs && rimraf docs",
 		"precommit": "npm t",
 		"test": "nyc ava && eslint . -c styled --ignore-path .gitignore && editorconfig-tools check ."
 	}
