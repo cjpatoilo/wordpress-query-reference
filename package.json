@@ -1,6 +1,6 @@
 {
 	"name": "wordpress-query-reference",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A dead simple WP Query reference.",
 	"homepage": "https://cjpatoilo.com/wordpress-query-reference",
 	"repository": "cjpatoilo/wordpress-query-reference",
